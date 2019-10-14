@@ -3,6 +3,7 @@
 }
 body{
 	font-family: 'Playfair Display', serif;
+	background-image: url(images/Ellipse.png);
 }
 .container{
 	width: 1170px;
@@ -149,22 +150,28 @@ color: #e9ebec;
 text-transform: uppercase;
 letter-spacing: 52px;
 padding: 0;
+transition: 1s;
+transform: scale3d(1.1);
 }
 .main_story{
 	margin-top: 45px;
-}
+	}
 .name{
 	position: absolute;
 	top: 0;
+	display: block;
 	left:479px;
-	c
 	width: 293px;
 	height: 130px;
 	background-color: #80b7b3;
 	box-shadow: 2px 31px 50px rgba(0,0,0,0.53);
 	font-size: 68px;
 	color: white;
-}
+	text-align: center;
+	padding-top: 42px;
+	transition: 1.3s;
+    transform: scale(1.1);
+	}
 .last_travel_story{
 	padding: 0 61px 130px 0;
 	
@@ -294,7 +301,178 @@ width:160px;
 letter-spacing: 5px;
 }
 .video{
-height: 703px;
-width: 100%;
+	text-decoration: none;
+	font-size: 28px;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+	margin-left: 30px;
+	transition: 0.6s;
+}
+.video:hover{
+	transition: 0.5s;
+	color:#80b7b3; 
+	letter-spacing: 4px;
+}
+.about_me{
+	padding: 87px 195px 0 133px;
+	position: relative;
+}
+.about_me__img{
+	width: 520px;
+	height:406px;
+}
+.quote_wrap{
+	margin-top: 42px;
+
+}
+.about_me h3{
+	width: 375px;
+	text-align: left;
+	font-size: 36px;
+}
+.quote{
+	width: 750px;
+	height: 309px;
+	padding: 64px 98px 70px 97px;
+	background-color: white;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.13); 
+	font-size: 14px;
+	position: absolute;
+	bottom: -127px;
+	right: 115px;
+	}
+.quote_text{
+	font-style: italic;
+	font-size: 26px;
+	line-height: 46px;
+	color: #273d46;
+}
+.quote .description{
+	margin-top: 37px;
+	margin-bottom: 23px;
+}
+.quote .storypage_btn{
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 182px;
+}
+.footer{
+background-image: url(images/footer-photo.png);
+height: 629px;
+margin-top: 277px;
+padding-top:55px ;
+position: relative;
+
+}
+.ask_me{
+background-color: rgba(0,0,0,0.5);
+width: 400px;
+height: 400px;
+margin:0 auto;
+padding-top: 30px;
+}
+.form_text{
+display: block;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 42px;
+color: #80b7b3;
+}
+.questions{
+display: block;
+margin-top: 20px;
+font-size: 25px;
+text-align: center;
+color: #80b7b3;
+}
+.field_question{
+border-radius: 5px;
+width: 300px;
+height: 80px;
+margin-top: 10px;
+outline: none;
+-moz-appearance: none;
+border: 1px solid #999;
+resize:vertical; 
+padding: 5px 5px;
+font-size: 16px;
+}
+.email_question{
+outline: none;
+-moz-appearance: none;
+border: 1px solid #999; 
+border-radius: 5px;	
+}
+.email_description{
+display: block;
+margin-top: 20px;
+}
+.email_question{
+width: 300px;
+height: 30px;
+}
+.btn_send{
+display: block;
+text-decoration: none;
+font-family: 'Poppins', sans-serif;
+width: 150px;
+height: 44px;
+margin-left: -3px;
+background-color: #80b7b3;
+color: white;
+font-size: 18px;
+text-align: center;
+letter-spacing: 4px;
+line-height: 40px;
+border-radius: 100px;
+box-shadow: 1px 1px 10px 3px #80b7b3;
+transition: 0.4s;
+margin:0 auto;
+margin-top: 20px;
+}
+.btn_send:hover{
+transition: 0.4s;
+background-color: #80b7b3;
+letter-spacing: 6px;
+background-color: #98c7c4;
+cursor: pointer;
+}
+.btn_send:active{
+text-decoration: none;
+border: none;
+outline: none;
+}
+.footer_social{
+	background-color: rgba(0,0,0,0.7);
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.icons{
+	color: white;
+	display: flex;
+	width: 55px;
+	height: 55px;
+	transition: 0.4s;
+
+}
+.icons:hover{
+	cursor: pointer;
+	transition: 0.4s;
+	transform: scale(1.1);
+}
+.join_me{
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	font-size: 36px;
+	color: #f2f2f2;
+	text-transform: uppercase;
 
 }
