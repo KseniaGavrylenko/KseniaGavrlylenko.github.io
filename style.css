@@ -172,6 +172,18 @@ transform: scale3d(1.1);
 	transition: 1.3s;
     transform: scale(1.1);
 	}
+    .link_name{
+    	color: white;
+    }
+	.link_name:active {
+  color: white;
+}
+.link_name:visited {s
+  color: white;
+}
+.link_name:link {
+  color: white;
+}
 .last_travel_story{
 	padding: 0 61px 130px 0;
 	
@@ -188,7 +200,7 @@ h2{
 	width: 438px;
 	color: #273d46;
 	font-size: 36px;
-	margin-bottom: 84px;
+	margin-bottom: 74px;
 }
 .last_travel_story__text{
 	display: block;
