@@ -392,6 +392,7 @@ width: 669px;
 height: 325px;
 margin:0 auto;
 padding:59px 71px 56px 71px;
+border-radius: 30px;
 }
 .question input{
 display: block;
@@ -480,24 +481,22 @@ border: none;
 outline: none;
 }
 .footer_social{
-	background-color: rgba(0,0,0,0.7);
-	height: 70px;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
+	height: 50px;
+	width: 650px;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	margin: 0 auto;
 	padding-right: 20%;
 	padding-left: 20%;
+	justify-content: space-between;
+	margin-top: 70px;
 }
-.icons{
+.icons {
 	color: white;
 	display: flex;
 	width: 35px;
 	height: 35px;
 	transition: 0.4s;
-
+justify-content: space-between;
 }
 .icons:hover{
 	cursor: pointer;
@@ -509,5 +508,6 @@ outline: none;
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	color: #a2a9ab;
-
+	justify-content: center;
+	margin-top: 10px;
 }
