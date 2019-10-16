@@ -226,9 +226,15 @@ margin-bottom: 20px;
 
 .stories_item{
 width: 310px;
-height: 270px;
+height: 410px;
 flex-wrap: wrap;
 justify-content: space-between;
+transition: 0.5s;
+}
+.stories_item:hover{
+cursor: pointer;
+box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
+transition: 0.5s;
 }
 .storypage_btn{
   display: block;
@@ -236,7 +242,6 @@ justify-content: space-between;
   font-family: 'Poppins', sans-serif;
   width: 200px;
   height: 44px;
- 
   background-color: #80b7b3;
   color: white;
   font-size: 14px;
@@ -265,6 +270,7 @@ width: 310px;
 height: 200px;
 }
 h3{
+  padding: 0 10px 0 10px;
   display: block;
   font-size: 28px;
   margin-top: 15px;
