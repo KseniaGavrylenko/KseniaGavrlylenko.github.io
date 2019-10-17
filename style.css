@@ -11,7 +11,10 @@ body{
     background-repeat: no-repeat;
 }
 .container{
-	width: 1170px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.section{
 	margin: 0 auto;
 }
 .row:after{
@@ -60,10 +63,10 @@ clear: both;
 }
 
 header{
-	width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 	height: 303px;
-	padding: 81px 210px 60px 15px;
+	padding: 81px 210px 60px 55px;
 	position: relative;
 }
 
@@ -179,6 +182,7 @@ transform: scale3d(1.1);
 	}
     .link_name{
     	color: white;
+    	display: block;
     }
 	.link_name:active {
   color: white;
@@ -322,7 +326,27 @@ width:190px;
 letter-spacing: 5px;
 }
 
+.description_video{
+	display: block;
+	position: absolute;
+	right: 10%;
+	margin-top: 30px;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 30px; 
+	color: #7d8b90;
+	transition: 0.5s;
+}
+.description_video:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+	color: #80b7b3;
+	cursor: pointer;
+}
 .about_me{
+	margin-top: 30px;
 	padding: 87px 195px 0 133px;
 	position: relative;
 }
@@ -332,12 +356,12 @@ letter-spacing: 5px;
 }
 .quote_wrap{
 	margin-top: 42px;
-
+    margin-left: 122px;
 }
 .about_me h3{
-	width: 375px;
+	width: 390px;
 	text-align: left;
-	font-size: 36px;
+	font-size: 35px;
 }
 .quote{
 	width: 750px;
@@ -347,8 +371,8 @@ letter-spacing: 5px;
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.13); 
 	font-size: 14px;
 	position: absolute;
-	bottom: -127px;
-	right: 115px;
+	bottom: -133px;
+    right: 95px;
 	}
 .quote_text{
 	font-style: italic;
@@ -499,4 +523,264 @@ justify-content: space-between;
 	color: #a2a9ab;
 	justify-content: center;
 	margin-top: 10px;
+}
+
+
+/*МЕДИАЗАПРОСЫ*/
+
+@media (min-width: 1440px){
+    .name{
+    left: 39%;
+}
+    .header_text {
+    font-size: 219px;
+}
+.about_me__img {
+    width: 598px;
+    height: 421px;
+}
+header {
+    padding: 62px 210px 60px 55px;
+    }
+}
+@media (max-width: 1199px){
+ .name{
+ 	left:380px;
+ }
+
+.menu__item {
+  font-size: 23px;
+
+}
+h2{
+	width: 100%;
+	color: #273d46;
+	font-size: 26px;
+	margin-bottom: 54px;
+}
+.last_travel_story__text{
+	width: 100%;
+	font-size: 18px;
+}
+.storypage_btn{
+	letter-spacing: 3px;
+
+	}
+.storypage_btn:hover{
+	letter-spacing: 4px;
+	}
+.last_travel_story__img{
+    width: 505px;
+    height: 477px;
+    z-index: -4;
+}
+.last_travel_story__mini-img{
+    width: 372px;
+    height: 248px;
+    margin-top: 84px;
+    }
+.blog_item{
+width: 30%;
+height:500px;
+margin-bottom: 40px;
+justify-content: space-around;
+}
+.about_me{
+	margin-top: 22px;
+	padding: 87px 195px 0 133px;
+	position: relative;
+}
+.about_me__img{
+	width: 509px;
+    height: 367px;
+}
+.quote_wrap{
+	margin-top: 42px;
+    margin-left: 183px;
+}
+.about_me h3{
+	text-align: left;
+	font-size: 29px;
+}
+.quote{
+	width: 685px;
+    height: 271px;
+    padding: 34px 98px 60px 97px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
+    font-size: 14px;
+    position: absolute;
+    bottom: -132px;
+    right: 33px;
+	}
+.quote_text{
+	font-style: italic;
+	font-size: 26px;
+	line-height: 46px;
+	color: #273d46;
+}
+.quote .description{
+	margin-top: 11px;
+    margin-bottom: -3px;
+}
+}
+
+
+
+@media (max-width: 991px){
+ .name{
+ 	left: 40%;
+ 
+}
+.header_text{
+font-size: 159px;
+color: #e9ebec;
+letter-spacing: 50px;
+padding: 0;
+}
+h2{
+	width: 100%;
+	color: #273d46;
+	font-size: 26px;
+	margin-bottom: 44px;
+}
+.last_travel_story__text{
+	width: 100%;
+	font-size: 18px;
+}
+.quote .storypage_btn{
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 182px;
+	}
+.storypage_btn:hover{
+	letter-spacing: 4px;
+	}
+.last_travel_story__img{
+    width: 505px;
+    height: 477px;
+    z-index: -4;
+}
+.last_travel_story__mini-img{
+    width: 372px;
+    height: 248px;
+    margin-top: 84px;
+    }
+.blog_item{
+width: 45%;
+height:500px;
+margin-bottom: 40px;
+justify-content: space-around;
+}
+.about_me{
+	margin-top: 22px;
+	padding: 87px 195px 0 133px;
+	position: relative;
+}
+.about_me__img{
+	width: 509px;
+    height: 367px;
+}
+.quote_wrap{
+	margin-top: 42px;
+    margin-left: 206px;
+}
+.about_me h3{
+	text-align: left;
+	font-size: 29px;
+}
+.quote{
+	width: 685px;
+    height: 271px;
+    padding: 34px 98px 60px 97px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
+    font-size: 14px;
+    position: absolute;
+    bottom: -132px;
+    right: 33px;
+	}
+.quote_text{
+	font-style: italic;
+	font-size: 26px;
+	line-height: 46px;
+	color: #273d46;
+}
+.quote .description{
+	margin-top: 11px;
+    margin-bottom: -3px;
+}
+
+}
+@media (max-width: 768px){
+h2{
+	margin-bottom: 24px;
+}
+.last_travel_story__text{
+	width: 100%;
+	font-size: 20px;
+}
+.about_me{
+	margin-top: 22px;
+    padding: 87px 145px 0 33px;
+    position: relative;
+}
+.about_me__img{
+	width: 501px;
+    height: 361px;
+}
+.quote_wrap{
+    margin-top: 46px;
+    margin-left: 150px;
+}
+.about_me h3{
+	width: 390px;
+	text-align: left;
+	font-size: 35px;
+}
+.quote{
+	width: 626px;
+    height: 275px;
+    padding: 44px 88px 60px 87px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
+    font-size: 14px;
+    position: absolute;
+    bottom: -131px;
+    right: 43px;
+	}
+.quote_text{
+	font-style: italic;
+	font-size: 22px;
+	line-height: 46px;
+	color: #273d46;
+}
+.quote .storypage_btn{
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 182px;
+
+}
+.quote .description{
+    margin-top: 3px;
+    margin-bottom: 6px;
+
+
+}
+}
+
+
+@media (max-width: 576px){
+
+}
+
+@media  screen and (max-width: 319px){
+.header_text {
+    font-size: 152px;
+   letter-spacing: 38px;
+   }
+.name {
+    
+}
+
 }
