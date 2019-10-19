@@ -224,7 +224,7 @@ margin-bottom: 20px;
 }
 
 .stories_item{
-width: 310px;
+width: 30%;;
 height: 410px;
 flex-wrap: wrap;
 justify-content: space-between;
@@ -234,6 +234,9 @@ transition: 0.5s;
 cursor: pointer;
 box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
 transition: 0.5s;
+}
+.stories_item:last-child{
+  margin-right: 0;
 }
 .storypage_btn{
   display: block;
@@ -265,7 +268,7 @@ transition: 0.5s;
 }
 .blog_card_img{
 display: flex;
-width: 310px;
+width: 100%;
 height: 200px;
 }
 h3{
@@ -423,4 +426,24 @@ justify-content: space-between;
 .main_content{
   width: 53%;
   margin:0 auto;
+}
+
+/*МЕДИАЗАПРОСЫ*/
+@media  screen and (max-width: 320px){
+
+
+
+.stories_item {
+    width: 30%;
+    height: 410px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.main_content{
+  width: 76%;
+  margin:0 auto;
+}
+
+
 }
