@@ -1,0 +1,46 @@
+.blog_item{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .blog_card_img{
+    display: block;
+    width: 100%;
+    height: 44%;
+    margin-bottom: 20px;
+    transition: 1s;
+    }
+    .blog_item:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.13);
+    transition: 0.5s;
+    }
+    h3{
+    display: block;
+    padding:0 10px 0 10px;
+    color: #273d46;
+    font-size: 24px;
+    text-align: center;
+    }
+    .blog_text{
+    display: block;
+    margin-top: 10px;
+    color: #52646b;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    }
+    .blog_item .storypage_btn{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .blog_item .storypage_btn{
+    width:190px;
+    }
+    .storypage_btn:hover{
+    letter-spacing: 5px;
+    }

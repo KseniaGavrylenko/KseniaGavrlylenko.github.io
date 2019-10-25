@@ -1,0 +1,99 @@
+header{
+    width: 100%;
+    margin: 0 auto;
+    height: 303px;
+    padding: 81px 210px 60px 55px;
+    position: relative;
+    }
+    
+    .burger_menu{
+    margin-top: -45px;
+    }
+    #menu__toggle {
+    opacity: 0;
+    }
+    .menu__btn {
+    display: flex; 
+    align-items: center;  
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+    z-index: 1;
+    margin-bottom: 20px;
+    
+    }
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: #939ea2;
+    border-radius: 4px;
+    }
+    .menu__btn > span::before {
+    content: '';
+    top: -8px;
+    }
+    .menu__btn > span::after {
+    content: '';
+    top: 8px;
+    }
+    .menu__box {
+    display: block;
+    visibility: hidden;
+    width: 180px;
+    height: 100%;
+    margin: -25px;
+    padding: 15px 0px ;
+    list-style: none;
+    text-align: center;
+    z-index: 5;
+    
+    }
+    .menu__item li{
+    display: block;
+    width: 180px;
+    }
+    .menu__item {
+    display: block;
+    width: 180px;
+    padding: 10px 0;
+    color: #273d46 ;
+    font-size: 30px;
+    text-decoration: none;
+    
+    }
+    .menu__item:hover {
+    color:#80b7b3;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+    transition-duration: .5s
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    transition-duration: .5s
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    transition-duration: .5s;
+    }
+    #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+    }
+    .header_text{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 189px;
+    color: #e9ebec;
+    text-transform: uppercase;
+    letter-spacing: 52px;
+    padding: 0;
+    transition: 1s;
+    transform: scale3d(1.1);
+    }
