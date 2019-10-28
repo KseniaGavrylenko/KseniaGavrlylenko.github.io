@@ -9,11 +9,12 @@ const Blog =() =>{
     <section className="blog_320">
         <div className="container">
             <p className="blog_description">Life blog</p>
-                <div className="row">
+                <div className="row list-items">
                            {                                       
                                 stories.map((stories)=>(
                                     <div className="blog_cards">
                                     <StoryListItem
+                                    image={stories.image}
                                     h3={stories.h3}
                                     description={stories.description}
                                     />

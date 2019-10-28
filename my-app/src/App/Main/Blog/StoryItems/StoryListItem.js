@@ -5,7 +5,7 @@ import './StoryItem.css'
 const StoryListItem = (props) =>{
     return(
             <div className="blog_item">
-                <img src="images/volcano_card.png" alt="" className="blog_card_img"/> 
+                <img src="{props.image}" alt="/" className="blog_card_img"/> 
                     <h3>{props.h3}</h3>
                         <p className="blog_text">
                         {props.description}

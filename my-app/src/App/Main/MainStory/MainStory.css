@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Poppins:500&display=swap');
+
 .main_story{
     margin-top: 45px;
     }
@@ -47,12 +49,17 @@
     color: #273d46;
     font-size: 36px;
     margin-bottom: 74px;
+    line-height: 36px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    text-transform: none;
     }
     .last_travel_story__text{
     display: block;
     width: 420px;
     color: #52646b;
     font-size: 24px;
+    font-family: 'Playfair Display', serif;
     }
     .storypage_btn{
     display: block;
