@@ -12,7 +12,7 @@ const Blog =() =>{
                 <div className="row list-items">
                            {                                       
                                 stories.map((stories)=>(
-                                    <div className="blog_cards">
+                                    <div className="blog_cards" key={stories.id}>
                                     <StoryListItem
                                     image={stories.image}
                                     h3={stories.h3}

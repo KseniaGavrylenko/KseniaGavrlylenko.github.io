@@ -1,37 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Poppins:500&display=swap');
 
+@media (min-width: 768px){
+    .main_story {
+        margin-top: 9px;
+        margin-bottom: 35px;
+    }
+    .last_travel_story__mini-img{
+        display: none;
+    }
+    .last_travel_story__img{
+        width: 100%;
+        right: 0;
+        z-index: -4;
+        }
+        h2 {
+        font-size: 27px;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        .last_travel_story__text{
+            font-size: 16px;
+        }
+        .storypage_btn{
+            margin-top: 8px; 
+        }
+
+            
+}
+
+@media (min-width: 1140px){
 .main_story{
     margin-top: 45px;
     }
-    .name{
-    position: absolute;
-    top: 0;
-    display: block;
-    left:479px;
-    width: 293px;
-    height: 130px;
-    background-color: #80b7b3;
-    box-shadow: 0 20px 40px  rgba(0,0,0,0.23);
-    font-size: 68px;
-    color: white;
-    text-align: center;
-    padding-top: 42px;
-    transition: 1.3s;
-    transform: scale(1.1);
-    }
-    .link_name{
-        color: white;
-        display: block;
-    }
-    .link_name:active {
-    color: white;
-    }
-    .link_name:visited {
-    color: white;
-    }
-    .link_name:link {
-    color: white;
-    }
+   
     .last_travel_story{
     padding: 0 61px 130px 0;
     
@@ -98,6 +100,7 @@
     z-index: -4;
     }
     .last_travel_story__mini-img{
+    display: block;
     width: 372px;
     height: 248px;
     border: 15px solid white;
@@ -109,3 +112,4 @@
     transform: scale(1.1); 
     transition: 1s;	
     }
+}
